@@ -10,13 +10,13 @@ letter_o = 'o'
 letter_t = 't'
 # Expected output: ['tea', 'water', 'soda water']
 
-# def letter_includer(array, string)
-#   new = array.select{|value| value.downcase.include? string.downcase}
-#   p new
-# end
-#
-# letter_includer(beverages_array, letter_o)
-# letter_includer(beverages_array, letter_t)
+def letter_includer(array, string)
+  new = array.select{|value| value.downcase.include? string.downcase}
+  p new
+end
+
+letter_includer(beverages_array, letter_o)
+letter_includer(beverages_array, letter_t)
 
 
 
@@ -30,12 +30,12 @@ nums_array1 = [42, 7, 27]
 nums_array2 = [25, 17, 47, 11]
 # Expected output: 100
 
-# def add_arr(array)
-# p array.sum
-# end
-#
-# add_arr(nums_array1)
-# add_arr(nums_array2)
+def add_arr(array)
+p array.sum
+end
+
+add_arr(nums_array1)
+add_arr(nums_array2)
 
 
 

@@ -69,4 +69,4 @@ ERB means Embedded Ruby and it allows Ruby to function in a front end document. 
 Params, also known as Rails parameters, are common with HTTP get requests, they're a series of key-value pairs included in the URL using a Rails syntax that aid the browser in indicating what to return to the user.
 
 5. API:
-Application Programming Interfaces act as a sort of middle person to allow two applications to communicate. When all of the data needed for an application isn't stored in that same application, and API can be used to reference that data or software from a database where it IS being stored and communicate it back to the user in a way the user understands. 
+Application Programming Interfaces act as a sort of middle person to allow two applications to communicate. When all of the data needed for an application isn't stored in that same application, and API can be used to reference that data or software from a database where it IS being stored and communicate it back to the user in a way the user understands.
